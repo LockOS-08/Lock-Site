@@ -1,0 +1,183 @@
+body {
+    background: #2e2e2e;
+    color: #e5e7eb;
+    font-family: 'Iosevka Term SS03 Light Oblique', monospace;
+    
+}
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+a:hover {
+    color: #f3f4f6;
+    zoom: 1.05;
+    transition: all 0.2s ease-in;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border-color: #e5e7eb;
+    border-style: solid;
+    justify-content: center;
+    display: flex;
+}
+
+ul li {
+    float: left;
+    margin: 1px;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    border-color: #e5e7eb;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
+
+ul li#y1995 a:hover {
+    font-family: "MS Sans Serif", sans-serif;
+
+    background: #c0c0c0;
+    color: black;
+
+    border-top: 1px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #404040;
+    border-bottom: 1px solid #404040;
+
+    border-radius: 0;
+
+    box-shadow: none;
+}
+
+
+div#info-box {
+    width: 150px;
+    height: 250px;
+    background-color: #22222269;
+    color: white;
+    padding: 20px;
+    border-radius: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+}
+
+div#info-box2 {
+    width: 150px;
+    height: 225px;
+    background-color: #22222269;
+    color: white;
+    padding: 20px;
+    border-radius: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.box-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+@font-face {
+    font-family: 'Iosevka Term SS03 Light Oblique';
+    src: url(port/fonts/IosevkaTermSS03-LightOblique.woff2) format('woff2');
+    font-weight: normal;
+}
+
+div#info-box3 {
+    width: 150px;
+    height: 210px;
+    background-color: #22222269;
+    color: white;
+    padding: 20px;
+    border-radius: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+}
+
+div#info-box4 {
+    width: 300px;
+    height: 525px;
+    background-color: #22222269;
+    color: white;
+    padding: 20px;
+    border-radius: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+}
+div img {
+    width: 100%;
+    height: auto;
+    border-radius: 1px;
+}
+
+div#info-box5 {
+    width: 300px;
+    height: 300px;
+    background-color: #22222269;
+    color: white;
+    padding: 20px;
+    border-radius: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+}
+div#info-box5 a {
+    padding: 5px;
+    border: 1px solid #ffffff;
+}
+div#info-box6 {
+    width: 300px;
+    height: 300px;
+    background-color: #22222269;
+    color: white;
+    padding: 20px;
+    border-radius: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#infoex {
+    width: 450px;
+    height: 45px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 1px;
+}
+#infoex img {
+    width: 50px;
+    height: auto;
+    border-radius: 1px;
+}
+#info-boxpic {
+    width: 400px;
+    height: 450px;
+    background-color: #22222269;
+    color: white;
+    padding: 20px;
+    border-radius: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+}
+#info-boxpic img {
+    width: 100%;
+    height: auto;
+    border-radius: 1px;
+}
